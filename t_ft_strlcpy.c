@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   t_ft_strlcpy.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tiizuka <tiizuka@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: tiizuka <tiizuka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 17:05:32 by tiizuka           #+#    #+#             */
-/*   Updated: 2024/04/01 20:36:04 by tiizuka          ###   ########.fr       */
+/*   Updated: 2024/11/01 13:59:13 by tiizuka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static const char expected_results2[] = {
 	'\0'
 };
 
-char dst[6];
+static char dst[6];
 
 void t_ft_strlcpy() {
 	printf("\x1b[33m%s\n", TEST_NAME);

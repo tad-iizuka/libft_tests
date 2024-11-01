@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   t_ft_strtrim.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tiizuka <tiizuka@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: tiizuka <tiizuka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 16:27:15 by tiizuka           #+#    #+#             */
-/*   Updated: 2024/04/02 16:47:03 by tiizuka          ###   ########.fr       */
+/*   Updated: 2024/11/01 13:59:56 by tiizuka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static const char *test_cases[] = {
     NULL
 };
 
-char	dst[32];
+static char	dst[32];
 
 void t_ft_strtrim() {
 	printf("\x1b[33m%s\n", TEST_NAME);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   t_ft_lstmap.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tiizuka <tiizuka@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: tiizuka <tiizuka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 20:44:59 by tiizuka           #+#    #+#             */
-/*   Updated: 2024/04/02 21:40:44 by tiizuka          ###   ########.fr       */
+/*   Updated: 2024/11/01 14:00:29 by tiizuka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static const char test_cases[] = {
 // 	"2222222222"
 // };
 
-char	dst[32];
+static char	dst[32];
 
 static void	*convert(void *p)
 {

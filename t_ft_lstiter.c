@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   t_ft_lstiter.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tiizuka <tiizuka@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: tiizuka <tiizuka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 20:39:14 by tiizuka           #+#    #+#             */
-/*   Updated: 2024/04/02 21:25:45 by tiizuka          ###   ########.fr       */
+/*   Updated: 2024/11/01 14:00:18 by tiizuka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static const char expected_results[] = {
 	"2222222222"
 };
 
-char	dst[32];
+static char	dst[32];
 
 static void	convert(void *p)
 {

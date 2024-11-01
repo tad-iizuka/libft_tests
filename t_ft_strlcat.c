@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   t_ft_strlcat.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tiizuka <tiizuka@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: tiizuka <tiizuka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 10:22:29 by tiizuka           #+#    #+#             */
-/*   Updated: 2024/04/01 20:36:10 by tiizuka          ###   ########.fr       */
+/*   Updated: 2024/11/01 13:59:06 by tiizuka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ static const char expected_results2[] = {
 	'\0'
 };
 
-char dst[16];
+static char dst[16];
 
 void t_ft_strlcat() {
 	printf("\x1b[33m%s\n", TEST_NAME);
